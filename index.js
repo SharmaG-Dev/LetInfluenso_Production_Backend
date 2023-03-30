@@ -14,7 +14,7 @@ const app = express();
 const port = parseInt(process.env.PORT, 10) || 5000;
 
 app.use(cors({
-    origin: ["https://visionary-sopapillas-0568b3.netlify.app" ,"http://localhost:3000" ,"https://let-influenso-influencers-platform.vercel.app"],
+    origin: ["https://visionary-sopapillas-0568b3.netlify.app" ,"http://localhost:3000" ,"https://let-influenso-production-frontend.vercel.app"],
 }))
 
 app.use(express.json())
