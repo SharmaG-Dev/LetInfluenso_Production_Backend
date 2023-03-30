@@ -14,7 +14,7 @@ const app = express();
 const port = parseInt(process.env.PORT, 10) || 5000;
 
 app.use(cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://6425acc3b683da0a3cbce91e--visionary-sopapillas-0568b3.netlify.app"],
 }))
 
 app.use(express.json())
